@@ -1,0 +1,10 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+// En este scss puse las propiedades necesarias para que el formulario de la pagina de contacto se vea como quiero. //
+
+.form-registro{
+    @extend .form-registro;
+}
+h4{
+    @extend h4;
+}

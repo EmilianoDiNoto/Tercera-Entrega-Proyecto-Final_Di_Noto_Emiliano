@@ -1,0 +1,48 @@
+// Este media queries afecta a la pagina de incio (index) //
+
+@media(min-width:320px){
+    .grid-padre{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+}
+
+@media(min-width:768px){
+    .grid-padre{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+
+@media(min-width:1024px) {
+    .grid-padre{
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+// Esta media queries afecta a las paginas de Procesadores, Placas de video, Electrodomésticos y contactos. //
+
+@media(min-width:320px){
+    .grid-padre-procesador{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+    
+}
+
+@media(min-width:768px){
+    .grid-padre-procesador{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+@media(min-width:1024px) {
+    .grid-padre-procesador{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+// De esta forma se pudo hacer responsive mi sitio completo //
